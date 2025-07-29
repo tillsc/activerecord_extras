@@ -41,6 +41,7 @@ GEM
     rake (13.3.0)
     securerandom (0.4.1)
     sqlite3 (2.7.3-arm64-darwin)
+    sqlite3 (2.7.3-x86_64-linux-gnu)
     timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -48,6 +49,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   activerecord_extras!
