@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
     "source_code_uri" => spec.homepage
   }
 
-  spec.add_dependency "activerecord", ">= 6.0"
-  spec.add_dependency "activesupport", ">= 6.0"
+  spec.add_dependency "activerecord", "~> 8.0"
+  spec.add_dependency "activesupport", "~> 8.0"
 end

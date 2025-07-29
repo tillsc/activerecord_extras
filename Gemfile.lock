@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     activerecord_extras (0.1.0)
-      activerecord (>= 6.0)
-      activesupport (>= 6.0)
+      activerecord (~> 8.0)
+      activesupport (~> 8.0)
 
 GEM
   remote: https://rubygems.org/
