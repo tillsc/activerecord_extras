@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.7"
 
-  spec.files = Dir["lib/**/*.rb"] + ["README.md", "LICENSE.txt"]
+  spec.files = Dir["lib/**/*.rb"] + ["README.md", "LICENSE.md"]
   spec.require_paths = ["lib"]
 
   spec.metadata = {
