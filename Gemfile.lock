@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activerecord_extras (0.1.0)
+    activerecord_extras (0.1.1)
       activerecord (~> 8.0)
       activesupport (~> 8.0)
 
