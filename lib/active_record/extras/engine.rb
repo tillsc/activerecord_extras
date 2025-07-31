@@ -1,3 +1,5 @@
+require 'active_record/extras/association_scopes'
+
 module ActiveRecord
   module Extras
     class Engine < ::Rails::Engine
