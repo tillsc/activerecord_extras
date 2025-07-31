@@ -1,6 +1,8 @@
+require_relative 'lib/active_record/extras/version'
+
 Gem::Specification.new do |spec|
   spec.name          = "activerecord_extras"
-  spec.version       = "0.1.0"
+  spec.version       = ActiveRecord::Extras::VERSION
   spec.authors       = ["Till Schulte-Coerne"]
   spec.email         = ["ruby@trsnet.de"]
 
