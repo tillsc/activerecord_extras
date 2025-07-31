@@ -47,4 +47,10 @@ class AssociationScopesTest < Minitest::Test
     assert_includes sql.downcase, "exists"
     assert_includes sql, "posts"
   end
+
+  def test_nesting
+    res = User.with_counts(:posts).with_existing(:posts).find(@user_with_posts.id)
+
+    assert_equal @user_with_posts.posts.count, res.posts_count
+  end
 end
